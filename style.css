@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-image: url(./IMAGES/GIF/GALAXY.gif);
+    background-size: contain;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*CONTAINER*/
+.container{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+/*HEADER*/
+.header{
+    width: 100%;
+    display: flex;
+    flex-basis: 5%;
+    align-items: center;
+    justify-content: end;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 10px;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.language:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.lang{
+    width: 50px;
+    height: 50px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 10px;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.login:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.exit{
+    width: 50px;
+    height: 50px;
+}
+.EN, .door{
+    text-decoration: none;
+    color: #fff;
+}
+/*HEADER*/
+/*CONTENT*/
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+.top-content{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 45%;
+}
+.format{
+    width: 50px;
+    height: 50px;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.format:hover{
+    cursor: pointer;
+    opacity: .8;
+    transform: translateY(-10px);
+}
+.bottom-content{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: #fc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0.625rem 0.625rem 0;
+    font-size: 15px;
+    height: 35px;
+    width: 45%;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.input{
+    display: flex;
+    height: 95%;
+    width: 93%;
+    text-align: center;
+}
+/*CONTENT*/
+/*FOOTER*/
+.footer{
+    width: 100%;
+    display: flex;
+    flex-basis: 15%;
+    flex-direction: column;
+}
+.top-footer{
+    width: 100%;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.flags{
+    display: flex;
+    width: 44%;
+    flex-direction: row;
+    justify-content: center;
+}
+.flag img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.flags:hover{
+    cursor: pointer;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #7f8c8d;
+}
+.UK{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.UK:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Fra{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Fra:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Ita{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Ita:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Ger{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Ger:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Spa{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Spa:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Chi{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Chi:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Rus{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Rus:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.Arab{
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.Arab:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.bottom-footer{
+    width: 100%;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.info:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+/*FOOTER*/
